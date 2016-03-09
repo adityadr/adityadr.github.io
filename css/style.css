@@ -1,14 +1,14 @@
 body {
     background: #f4f4f4;
     color: #000;
-    font-family: 'Alegreya Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
     letter-spacing: 2px;
     padding-bottom: 60px;
 }
 
 .container {
     background: #fff;
-    padding: 50px 55px;
+    padding: 20px 25px;
     margin: 20px auto;
 }
 
@@ -21,7 +21,7 @@ img {
 }
 
 hr {
-    margin: 40px 0;
+    margin: 30px 0;
 }
 
 h1 {
@@ -57,6 +57,10 @@ a {
     font-weight: lighter;
     letter-spacing: 1px;
     font-size: 16px;
+}
+a {
+    font-weight: 600;
+    color: #3498db;
 }
 
 li {
@@ -113,7 +117,7 @@ blockquote {
   font-size: 20px;
   padding: 10px;
 }
-.testimonials img {
+.testimonials img{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -122,7 +126,14 @@ blockquote {
     margin-top: -10px;
     border: 1px solid #ededed;
 }
-
+.imgLogo {
+    float: left;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.periodTime{
+    color: #9A9898;
+}
 .year,
 .share {
     text-align: right;
