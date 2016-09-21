@@ -109,12 +109,15 @@ blockquote {
 .mainleft {
     padding-right: 30px;
 }
+.aboutme_clear{
+  margin-top: 10px;
+}
 .yodaQuote{
   margin: 20px 20px 0px 20px;
 }
 .yodaQuote .quote{
-  line-height: 40px;
-  font-size: 20px;
+ // line-height: 40px;
+  font-size: 18px;
   padding: 10px;
 }
 .testimonials img{
@@ -127,12 +130,16 @@ blockquote {
     border: 1px solid #ededed;
 }
 .imgLogo {
-    float: left;
     margin-right: 15px;
     margin-top: 10px;
+	max-width: 100px;
+    float: none;
 }
 .periodTime{
     color: #9A9898;
+}
+.workText{
+padding-left: 15px;
 }
 .year,
 .share {
